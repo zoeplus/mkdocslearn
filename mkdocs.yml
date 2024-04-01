@@ -1,0 +1,22 @@
+site_name: 仓库
+repo_url: https://github.com/zoeplus/zoeminus
+repo_name: zoeminus
+site_description: 存放一些笔记
+site_author: zoeplus
+
+nav:
+  - Introduction: 'index.md'
+  - Math:
+    - 'workon.md'
+  - 'Find me elsewhere':
+    - HackerRank: 'https://www.hackerrank.com/profile/zoepeace622'
+    - Kaggle: 'https://www.kaggle.com/zoepeace' 
+
+theme:
+  name: material
+  locale: en
+  font:
+    code: Roboto Mono
+
+extra_css:
+  - stylesheets/extra.css
