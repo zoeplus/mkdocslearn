@@ -1,6 +1,7 @@
 site_name: 仓库
-repo_url: https://github.com/zoeplus/zoeminus
-repo_name: zoeminus
+repo_url: https://github.com/zoeplus/mkdocslearn
+repo_name: mkdocslearn
+edit_uri: /main/docs/
 site_description: 存放一些笔记
 site_author: zoeplus
 
@@ -12,11 +13,18 @@ nav:
     - HackerRank: 'https://www.hackerrank.com/profile/zoepeace622'
     - Kaggle: 'https://www.kaggle.com/zoepeace' 
 
+plugins:
+  - search
+  - git-revision-date
+
 theme:
   name: material
   locale: en
   font:
     code: Roboto Mono
+  features:
+    - revision.date
+    - revision.histor
 
 extra_css:
   - stylesheets/extra.css
